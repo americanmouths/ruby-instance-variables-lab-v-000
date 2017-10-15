@@ -6,5 +6,9 @@ class Dog
   def name
     this_dogs_name #reading method
   end
-  
+
 end
+
+lassie = Dog.new
+lassie.name = "Lassie"
+lassie.name
